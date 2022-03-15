@@ -89,13 +89,47 @@ export default {
 </script>
 
 <style scoped>
-.description {
+.contenu, .description {
+
   width: 60%;
-  display: block;
-  margin: auto;
   padding-top: 5em;
+  margin: auto;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
+.contenu {
+  display: flex;
+}
+
+.call_to_action > .text > h2 {
+  color: #F9F871;
+}
+
+.text {
+  width: 50%;
+
+}
+
+.text > p > a {
+  color: #F9F871;
+  font-family: "Noto Sans";
+}
+
+.text > p {
+  margin-bottom: 2em;
+}
+.text > .bouton {
+  background: #1181B2;
+  padding: 1em;
+}
+
+.image {
+  width: 50%;
+  padding-left: 10em;
+
+
+}
 .icone_svg {
   margin-left: 48%;
   margin-top: 5em;
@@ -103,6 +137,14 @@ export default {
 .image {
   padding-left: 0;
   margin-right: 10em;
+}
+
+.image > img {
+  width: 100%;
+  height: auto;
+  margin-top: 2em;
+  border-radius: 2em;
+  filter: drop-shadow(0.5em 0.5em 1em black);
 }
 
 @media (max-width: 600px) {
@@ -113,11 +155,16 @@ export default {
 
 
   .contenu {
-    width: 60%;
+    width: 80%;
     display: block;
     margin: auto;
     padding-top: 5em;
   }
+
+  .contenu > .text {
+    width: 100%;
+  }
 }
+
 
 </style>
