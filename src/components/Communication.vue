@@ -62,7 +62,7 @@
 
     <div class="contenu">
       <div class="image">
-        <img src="@/assets/twitch_preview.png" alt="">
+        <img src="@/assets/Twitch_preview.png" alt="">
       </div>
 
       <div class="text">

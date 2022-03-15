@@ -138,6 +138,37 @@ export default {
 </script>
 
 <style scoped>
+
+.contenu, .description {
+
+  width: 60%;
+  padding-top: 5em;
+  margin: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.contenu {
+  display: flex;
+}
+
+.image {
+  width: 100%;
+  padding-right: 5em;
+
+}
+
+.image > .me {
+  width: 100%;
+  height: auto;
+  clip-path: circle(40% at 50% 50%);
+}
+
+.image {
+  width: 100%;
+  padding-left: 15em;
+}
+
 .description {
   width: 60%;
   display: block;
