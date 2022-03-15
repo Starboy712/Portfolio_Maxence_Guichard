@@ -162,8 +162,13 @@ export default {
     max-width: 500px;
 
   }
-  .text, .contenu {
+  .text, .bouton_cta{
     width: 100%;
+  }
+
+  .bouton_cta {
+    padding-left: 0;
+    padding-top: 0;
   }
 }
 
